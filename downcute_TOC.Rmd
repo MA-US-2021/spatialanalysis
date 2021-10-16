@@ -80,7 +80,7 @@ In this map, I attempt to investigate how many Chicago neighborhoods have police
 
 On clicking the image below, you would be directed to an interactive map. The map displays the percentage of population identifying with more than one race in different areas of Maui. Hovering over the specific polygons will provide the reader with information about the Census block, while clicking it will allow them to read the total population and percentage of multiracial population in that block. 
 
-[![](Link/Final_Interactive Map_Manasa Acharya.html)](){target="_blank"}
+[![](Images/Hawaii Multiracial Population.png)](https://ma-us-2021.github.io/spatialanalysis/Link/Final_Interactive Map_Manasa Achrya){target="_blank"}
 
 
 
