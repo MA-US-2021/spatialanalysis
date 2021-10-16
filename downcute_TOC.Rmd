@@ -12,15 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This portfolio has been created as a part of VIS 2128 course at the Harvard Graduate School of Design to showcase the author's skills in spatial mapping and analysis. 
-* Displaying multiple vector layers on the same map
-* Calculating and displaying relationships among point and polygon layers based on distance
-* Aggregating point data to a layer of polygons
-* Calculating and displaying accessibility, based on travel time
-* Converting between raster layers and vector layers
-* Displaying raster data on a map
-* Georeferencing a raster image
-* Displaying data on an interactive map
+This portfolio has been created as a part of VIS 2128 course at the Harvard Graduate School of Design to showcase the author's skills in spatial mapping and analysis.
 
 # Land Expansion in Mumbai
 
@@ -64,7 +56,7 @@ The following map continues to build on the previous one by merging adjacent gri
 [![](Images/Accessibility Score (Polygons).png)](){target="_blank"}
 
 
-# Maps of Chicago
+# Mapping Shootings and Police Stations in Chicago
 The following two maps analyse issues of shootings and police stations in Chicago.
 
 ## Incidence of Shootings
@@ -82,7 +74,7 @@ In this map, I attempt to investigate how many Chicago neighborhoods have police
 [![](Images/Police precincts in Chicago Neighbourhoods.png)](){target="_blank"}
 
 
-# Map of Maui
+# Multiracial Population in Maui
 * Skill: Displaying data on an interactive map
 * Skill: Aggregating point data to a layer of polygons
 
