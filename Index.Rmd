@@ -12,17 +12,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # INTRODUCTION
 
-This portfolio has been created as a part of 'VIS 2128' course at the Harvard Graduate School of Design to showcase the author's skills in spatial mapping and analysis.The page displays a range of skills spanning locations from Mumbai, India to Maui, Hawaii.
+This portfolio has been created as a part of VIS 2128, a six-week module at the Harvard Graduate School of Design. The objective of this compilation to showcase the author's skills in spatial mapping and analysis.The page displays a range of mapping functions through data of geographies spanning from Mumbai, India to Maui, Hawaii. Apart from the first map which was developed using ArcGis, all other maps have been created using the R software. The sources of the point and polygon data in these maps include the respective city's official open data portals, ESRI, and Open Street Maps.
 
 
 # MUMBAI: LAND EXPANSION
 
+The following image has made use of a 1900 historic map retrieved from the Harvard Map Collection to show changing boundaries of Mumbai city across time.
+
 ## Georeferenced Map
 * Skill: Georeferencing a historic map and adding layers of spatial data on the same
 
-This map shows administrative boundaries of the Indian city that I belong to, Mumbai, pre and post colonialism. Mumbai was previously a set of small islands but over the years (and primarily during the British regime), it saw rapid expansion and land reclamation as can be seen in the historic map and polygon layers represented here.
+This map shows administrative boundaries of the Indian city that I belong to, Mumbai, pre (1814) and post colonialism (1968) against the backdrop of a map drawn by the British during the period of colonialism (1900). Mumbai was previously a set of small islands but over the years (and primarily during the British regime), it saw rapid expansion and land reclamation as can be seen in the historic map and polygon layers represented here.
 
-[![](Images/Georeferenced Map for Portfolio (1).png)](https://ma-us-2021.github.io/spatialanalysis/Images/Georeferenced Map for Portfolio (1).png){target="_blank"}
+[![](Images/Mumbai Historic Map.jpg)](https://ma-us-2021.github.io/spatialanalysis/Images/Mumbai Historic Map.jpg){target="_blank"}
 
 
 # SAN FRANCISCO: ACCESS TO TRANSIT
@@ -32,7 +34,7 @@ The following three maps display public transportation accessibility in the city
 ## Transit stops within walking distance
 * Skill: Calculating and displaying accessibility, based on travel time
 
-The map below shows the number of transit stops that one can walk to within 10 minutes of walk from any point in the map. It is apparent that the highest concentration of transit stops is in the North-East part of the city, with certain parts having access to more than 60 transit stops within a short walking distance. 
+The map below shows the number of transit stops that one can walk to within 10 minutes from any point in the map. It is apparent that the highest concentration of transit stops is in the North-East part of the city, with certain parts having access to more than 60 transit stops within a short walking distance. 
 
 
 [![](Images/Transit stops within 10 minute walk.png)](https://ma-us-2021.github.io/spatialanalysis/Images/Transit stops within 10 minute walk.png){target="_blank"}
@@ -53,7 +55,7 @@ This map leverages information from the previous one to create and display an ac
 * Skill: Displaying raster data on a map
 
 
-The following map continues to build on the previous one by merging adjacent grid cells that have the same value to create polygons. This helps us group larger areas within the city based on ease of accessibility, which is helpful when one is planning at a cross-neighborhood scale. As we can see from the nuances of the grids, there aren't large parts of the city where adjacent areas have the exact same accessibility scores. 
+The following map continues to build on the previous one by merging adjacent grid cells that have the same value to create polygons. This helps us group larger areas within the city based on ease of accessibility, which is helpful when one is planning at cross-neighborhood scales. As we can see from the nuances of the grids, there aren't large parts of the city where adjacent areas have the exact same accessibility scores. 
 
 [![](Images/Accessibility Score (Polygons).png)](https://ma-us-2021.github.io/spatialanalysis/Images/Accessibility Score (Polygons).png){target="_blank"}
 
@@ -78,6 +80,8 @@ In this map, I attempt to investigate how many Chicago neighborhoods have police
 
 
 # MAUI: MULTIRACIAL POPULATION
+
+This map shows the racial diversity of Maui citizens across different Census blocks.
 
 * Skill: Displaying data on an interactive map
 * Skill: Aggregating point data to a layer of polygons
